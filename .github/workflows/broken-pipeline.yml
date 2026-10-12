@@ -50,4 +50,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: false
-          tags: ghcr.io/${{ github.repository }}:latest
+          tags: sample-app:latest
